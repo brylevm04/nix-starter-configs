@@ -1,4 +1,4 @@
-{ ssd, pcname, disks, ... }: {
+{ crypt, ssd, pcname, disks, ... }: {
   disko.devices = {
     disk = {
       main = {
@@ -19,7 +19,7 @@
             };
             root = {
               size = "100%";
-              content = {
+              content = (if crypt then {
                 type = "luks";
                 name = pcname + "-crypt";
                 extraOpenArgs = [ (if ssd then "--allow-discards --perf-no_read_workqueue --perf-no_write_workqueue" else "") ];
@@ -28,7 +28,11 @@
                   type = "zfs";
                   pool = "zfspool";
                 };
-              };
+              } else {
+                type = "zfs";
+                pool = "zfspool";
+                name = pcname + "-root";
+              });
             };
           };
         };
