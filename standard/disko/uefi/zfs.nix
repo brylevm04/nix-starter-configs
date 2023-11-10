@@ -38,7 +38,6 @@
       zfspool = {
         type = "zpool";
         mode="";
-        mountpoint="/";
         rootFsOptions = {
           canmount = "on";
           compression = "zstd";
