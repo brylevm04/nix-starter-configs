@@ -38,8 +38,9 @@
       zfspool = {
         type = "zpool";
         mode="";
+        mountpoint="/";
         rootFsOptions = {
-          canmount = "off";
+          canmount = "on";
           compression = "zstd";
         };
         datasets = {
@@ -47,23 +48,19 @@
             type = "zfs_fs";
             mountpoint = "/";
             postCreateHook = "zfs snapshot zfspool/root@blank";
-            options.mountpoint = "legacy";
           };
           nix = {
             type = "zfs_fs";
             mountpoint = "/nix";
-            options.mountpoint = "legacy";
           };
           persist = {
             type = "zfs_fs";
             mountpoint = "/persist";
-            options.mountpoint = "legacy";
           };
           home = {
             type = "zfs_fs";
             mountpoint = "/home";
             postCreateHook = "zfs snapshot zfspool/home@blank";
-            options.mountpoint = "legacy";
           };
         };
       };
