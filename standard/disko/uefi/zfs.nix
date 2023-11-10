@@ -22,7 +22,7 @@
               content = (if crypt then {
                 type = "luks";
                 name = pcname + "-crypt";
-                extraOpenArgs = [ (if ssd then "--allow-discards --perf-no_read_workqueue --perf-no_write_workqueue" else "") ];
+                extraOpenArgs = [ (if ssd then "--allow-discards --perf-no_read_workqueue --perf-no_write_workqueue" else "") "--persistent" ];
                 passwordFile = "/tmp/secret.key";
                 content = {
                   type = "zfs";
