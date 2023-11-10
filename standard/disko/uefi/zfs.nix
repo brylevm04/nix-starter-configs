@@ -1,4 +1,4 @@
-{ pcname, disks, ... }: {
+{ ssd, pcname, disks, ... }: {
   disko.devices = {
     disk = {
       main = {
@@ -22,7 +22,7 @@
               content = {
                 type = "luks";
                 name = pcname + "-crypt";
-                extraOpenArgs = [ "--allow-discards" ];
+                extraOpenArgs = [ (if ssd then "--allow-discards --perf-no_read_workqueue --perf-no_write_workqueue" else "") ];
                 passwordFile = "/tmp/secret.key";
                 content = {
                   type = "zfs";
