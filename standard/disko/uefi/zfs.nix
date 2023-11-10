@@ -8,7 +8,7 @@
           type = "gpt";
           partitions = {
             efi = {
-              size = "1024M";
+              size = "1G";
               type = "EF00";
               name = pcname + "-efi";
               content = {
