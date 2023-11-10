@@ -41,6 +41,10 @@
         rootFsOptions = {
           canmount = "on";
           compression = "zstd";
+          dedup = "on";
+          xattr = "sa";
+          atime = "off";
+          "com.sun:auto-snapshot" = "false";
         };
         datasets = {
           root = {
