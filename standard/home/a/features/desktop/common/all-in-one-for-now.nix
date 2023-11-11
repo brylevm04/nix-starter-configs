@@ -38,7 +38,7 @@
     libsForQt5.kget
     motrix
     persepolis
-    pyload-ng
+    #pyload-ng
     uget
 
     rtorrent
