@@ -39,7 +39,7 @@ in
 
     "/boot" = {
       device = "/dev/disk/by-partlabel/disk-main-${hostname}-efi";
-      fstype = "vfat";
+      fsType = "vfat";
       neededForBoot = true;
     };
 
