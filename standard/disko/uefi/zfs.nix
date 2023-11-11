@@ -22,11 +22,12 @@
                 mountpoint = "/boot";
               };
             };
-            nix = {
+            root = {
               size = "100%";
+              name = pcname + "-cryptnix";
               content = (if crypt then {
                 type = "luks";
-                name = pcname + "-cryptnix";
+                name = pcname + "-nix";
                 extraOpenArgs = [ (if ssd then "--allow-discards --perf-no_read_workqueue --perf-no_write_workqueue" else "") "--persistent" ];
                 passwordFile = "/tmp/secret.key";
                 content = {
