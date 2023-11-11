@@ -47,8 +47,8 @@
     mldonkey
     lbry
     eiskaltdcpp
-    amule
-    amule-web
+    #amule
+    #amule-web
     amule-gui
     nicotine-plus
     kubo
