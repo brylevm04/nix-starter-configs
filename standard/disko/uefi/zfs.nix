@@ -36,15 +36,15 @@
             };
           };
         };
-        nodev."/" = {
-          fsType = "tmpfs";
-          mountOptions = [
-            "size=100%"
-            "defaults"
-            "mode=755"
-          ];
-        };
       };
+    };
+    nodev."/" = {
+      fsType = "tmpfs";
+      mountOptions = [
+        "size=100%"
+        "defaults"
+        "mode=755"
+      ];
     };
     zpool = {
       zfspool = {
