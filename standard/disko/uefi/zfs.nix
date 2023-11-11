@@ -7,6 +7,10 @@
         content = {
           type = "gpt";
           partitions = {
+            mbrcompat = {
+              size = "1M";
+              type = "EF02";
+            };
             efi = {
               size = "1G";
               type = "EF00";
