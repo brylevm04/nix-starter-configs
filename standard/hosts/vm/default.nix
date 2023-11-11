@@ -17,7 +17,7 @@
   };
 
   boot = {
-    kernelPackages = pkgs.chaotic.linuxPackages_cachyos;
+    kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
 
