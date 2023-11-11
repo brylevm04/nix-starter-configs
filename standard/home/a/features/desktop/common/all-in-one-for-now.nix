@@ -64,7 +64,7 @@
     shotcut
     filezilla
 
-    dillo
+    #dillo
     dillong
     palemoon-bin
     netsurf.browser
