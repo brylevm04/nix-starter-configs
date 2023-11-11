@@ -23,5 +23,8 @@ in
     ];
 
     initialPassword = "password";
+    packages = [ pkgs.home-manager ];
   };
+
+  home-manager.users.a = import ../../../../home/a/${config.networking.hostName}.nix;
 }

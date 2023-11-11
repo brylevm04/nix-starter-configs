@@ -1,6 +1,7 @@
 # This file (and the global directory) holds config that i use on all hosts
 { lib, pkgs, inputs, outputs, ... }: {
   imports = [
+    inputs.home-manager.nixosModules.home-manager
     ./locale.nix
   ] ++ (builtins.attrValues outputs.nixosModules);
 
@@ -12,15 +13,9 @@
     };
   };
 
-  nix = {
-    package = lib.mkDefault pkgs.nix;
-    settings = {
-      experimental-features = [ "nix-command" "flakes" "repl-flake" ];
-      warn-dirty = false;
-    };
-  };
-
   hardware.enableRedistributableFirmware = true;
+
+  home-manager.extraSpecialArgs = { inherit inputs outputs; };
 
   # Increase open file limit for sudoers
   security.pam.loginLimits = [
