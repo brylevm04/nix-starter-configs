@@ -9,6 +9,7 @@
 
     ../common/optional/zfs-plus-tmpfs.nix
     ../common/optional/encrypted-root.nix
+    ../common/optional/pipewire.nix
   ];
 
   networking = {
@@ -24,14 +25,6 @@
   services.xserver.enable = true;
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
-  security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-    jack.enable = true;
-  };
   programs.fuse.userAllowOther = true;
   system.stateVersion = "23.05";
 }
