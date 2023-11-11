@@ -7,7 +7,8 @@
         content = {
           type = "gpt";
           partitions = {
-            mbrcompat = {
+            bioscompat = {
+              name = pcname + "-bioscompat";
               size = "1M";
               type = "EF02";
             };
