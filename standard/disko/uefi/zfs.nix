@@ -52,6 +52,14 @@
         "mode=755"
       ];
     };
+    nodev."/home/a" = {
+      fsType = "tmpfs";
+      mountOptions = [
+        "size=100%"
+        "defaults"
+        "mode=777"
+      ];
+    };
     zpool = {
       zfspool = {
         type = "zpool";
