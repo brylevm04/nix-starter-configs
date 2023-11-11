@@ -166,7 +166,6 @@
     imageworsener
     gmic
     gmic-qt
-    dcraw
     graphicsmagick
     posterazor
 
