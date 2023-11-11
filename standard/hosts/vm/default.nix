@@ -1,4 +1,4 @@
-{ chaotic-packages, pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports = [
@@ -17,7 +17,7 @@
   };
 
   boot = {
-    kernelPackages = chaotic-packages.linuxPackages_cachyos;
+    kernelPackages = pkgs.chaotic.linuxPackages_cachyos;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
 
