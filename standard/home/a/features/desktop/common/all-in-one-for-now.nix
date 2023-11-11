@@ -16,15 +16,71 @@
     scrcpy
     yt-dlp
     ffmpeg
-    aria
-    ariang
     # ?
     pavucontrol
     xdragon
-    qbittorrent
-    qbittorrent-nox
     alsa-utils
     ranger
+
+    aria
+    ariang
+    axel
+    curlFull
+    curlie
+    curlftpfs
+    wget
+    toybox
+    busybox
+    lftp
+    streamlink
+    you-get
+    clipgrab
+    libsForQt5.kget
+    motrix
+    persepolis
+    pyload-ng
+    uget
+
+    rtorrent
+    jesec-rtorrent
+    transmission
+    mldonkey
+    lbry
+    eiskaltdcpp
+    amule
+    amule-web
+    amule-gui
+    nicotine-plus
+    kubo
+    qbittorrent
+    qbittorrent-nox
+
+    libsForQt5.kolourpaint
+    gimp-with-plugins
+    krita
+    blender-hip
+    onlyoffice-bin
+    libreoffice-qt
+    shotcut
+    filezilla
+
+    dillo
+    dillong
+    palemoon-bin
+    netsurf.browser
+    links2
+
+    amfora
+    castor
+    lagrange
+    telescope
+    kristall
+
+    ffmpeg-normalize
+    ffmpegthumbnailer
+
+    slade
+
 
     # ?
     comma # Install and run programs by sticking a , before them
@@ -116,5 +172,8 @@
     vipsdisp
     genimage
     meh
+
+    vlc
+
   ];
 }
