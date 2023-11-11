@@ -1,6 +1,11 @@
 {
   imports = [
     ./hardware-configuration.nix
+  
+    ../common/users/a
+
+    ../common/optional/zfs-plus-tmpfs.nix
+    ../common/optional/encrypted-root.nix
   ];
 
   networking = {

@@ -2,8 +2,6 @@
 
 {
   imports = [
-    ../common/optional/zfs-plus-tmpfs.nix
-    ../common/optional/encrypted-root.nix
     (modulesPath + "/profiles/qemu-guest.nix")
   ];
 
