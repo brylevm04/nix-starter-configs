@@ -1,4 +1,4 @@
-{ nixpkgs-chaotic, pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports = [
