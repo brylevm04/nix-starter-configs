@@ -50,6 +50,9 @@
     zenith
     yad
 
+    nodejs
+    nodenv
+
     oxipng
     pngquant
     gifski
@@ -62,7 +65,7 @@
     jpeg-archive
     libjpeg
     gifsicle
-    svgo
+    nodePackages_latest.svgo
     image_optim
   ];
 }
