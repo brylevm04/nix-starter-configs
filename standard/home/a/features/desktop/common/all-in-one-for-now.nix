@@ -41,7 +41,7 @@
     #pyload-ng
     uget
 
-    rtorrent
+    #rtorrent
     jesec-rtorrent
     transmission
     mldonkey
