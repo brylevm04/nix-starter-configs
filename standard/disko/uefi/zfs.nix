@@ -36,6 +36,14 @@
             };
           };
         };
+        nodev."/" = {
+          fsType = "tmpfs";
+          mountOptions = [
+            "size=100%"
+            "defaults"
+            "mode=755"
+          ];
+        };
       };
     };
     zpool = {
@@ -51,11 +59,6 @@
           "com.sun:auto-snapshot" = "false";
         };
         datasets = {
-          root = {
-            type = "zfs_fs";
-            mountpoint = "/";
-            postCreateHook = "zfs snapshot zfspool/root@blank";
-          };
           nix = {
             type = "zfs_fs";
             mountpoint = "/nix";
