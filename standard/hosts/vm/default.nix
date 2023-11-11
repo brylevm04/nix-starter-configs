@@ -21,6 +21,9 @@
     kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
+  services.xserver.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
   programs.fuse.userAllowOther = true;
   system.stateVersion = "23.05";
 }
