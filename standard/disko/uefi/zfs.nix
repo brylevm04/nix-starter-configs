@@ -55,6 +55,8 @@
         type = "zpool";
         mode = "";
         rootFsOptions = {
+          acltype = "posixacl";
+          normalization = "formD";
           canmount = "on";
           compression = "zstd";
           dedup = "off";
