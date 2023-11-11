@@ -55,7 +55,7 @@
     gifski
     pngcrush
     pngout
-    advancecoomp
+    advancecomp
     optipng
     jhead
     jpegoptim
