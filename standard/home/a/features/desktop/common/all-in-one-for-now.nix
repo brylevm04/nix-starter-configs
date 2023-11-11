@@ -69,6 +69,8 @@
     palemoon-bin
     netsurf.browser
     links2
+    libsForQt5.falkon
+    libsForQt5.konqueror
 
     amfora
     castor
@@ -123,6 +125,7 @@
     nodePackages_latest.svgo
     image_optim
     pngloss
+    guetzli
 
     lolcat
     cowsay
@@ -130,6 +133,7 @@
     qoi
 
     zlib
+    zopfli
     fontconfig
     ghostscript
     liblqr1
@@ -160,6 +164,11 @@
     imagemagickBig
     vips
     imageworsener
+    gmic
+    gmic-qt
+    dcraw
+    graphicsmagick
+    posterazor
 
     termimage
     gqview
