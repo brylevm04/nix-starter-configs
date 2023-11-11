@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
   
+    ../common/global
     ../common/users/a
 
     ../common/optional/zfs-plus-tmpfs.nix
