@@ -66,5 +66,55 @@
     gifsicle
     nodePackages_latest.svgo
     image_optim
+    pngloss
+
+    lolcat
+    cowsay
+
+    qoi
+
+    zlib
+    fontconfig
+    ghostscript
+    liblqr1
+    libpng
+    libraw
+    libtiff
+    libxml2
+    libheif
+    djvulibre
+    libjxl
+    openexr
+    librsvg
+    pango
+    openjpeg
+    bzip2
+    freetype
+    libjpeg
+    lcms2
+    libX11
+    libXt
+    xorg.libXft
+    xorg.libXext
+    libwebp
+    libimagequant
+    libspectre
+    imlib2Full
+    openimageio
+    imagemagickBig
+    vips
+    imageworsener
+
+    termimage
+    gqview
+    qiv
+    sxiv
+    nsxiv
+    imgcat
+    s2png
+    feh
+    vipsdisp
+    genimage
+    meh
   ];
 }
