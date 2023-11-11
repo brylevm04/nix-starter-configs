@@ -39,8 +39,6 @@
     httpie # Better curl
     diffsitter # Better diff
     jq # JSON pretty printer and manipulator
-    trekscii # Cute startrek cli printer
-    timer # To help with my ADHD paralysis
 
     nil # Nix LSP
     nixfmt # Nix formatter
