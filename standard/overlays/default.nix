@@ -21,10 +21,10 @@
   #  };
   #};
 
-  chaotic-packages = final: _prev: {
-    chaotic = import inputs.nixpkgs-chaotic {
-      system = final.system;
-      config.allowUnfree = true;
-    };
-  };
+  #chaotic-packages = final: _prev: {
+  #  chaotic = import inputs.nixpkgs-chaotic {
+  #    system = final.system;
+  #    config.allowUnfree = true;
+  #  };
+  #};
 }
