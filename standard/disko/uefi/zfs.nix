@@ -67,11 +67,6 @@
             type = "zfs_fs";
             mountpoint = "/persist";
           };
-          home = {
-            type = "zfs_fs";
-            mountpoint = "/home";
-            postCreateHook = "zfs snapshot zfspool/home@blank";
-          };
         };
       };
     };
