@@ -11,6 +11,7 @@
               name = pcname + "-bioscompat";
               size = "1M";
               type = "EF02";
+              priority = 1;
             };
             efi = {
               size = "1G";
@@ -21,6 +22,7 @@
                 format = "vfat";
                 mountpoint = "/boot";
               };
+              priority = 2;
             };
             nix = {
               size = "100%";
@@ -33,10 +35,12 @@
                   type = "zfs";
                   pool = "zfspool";
                 };
+                priority = 3;
               } else {
                 type = "zfs";
                 pool = "zfspool";
                 name = pcname + "-nix";
+                priority = 3;
               });
             };
           };
