@@ -83,7 +83,7 @@
         extraSpecialArgs = {inherit inputs outputs;};
         modules = [
           # > Our main home-manager configuration file <
-          ./home/a.nix
+          ./home/a/vm.nix
         ];
       };
     };
