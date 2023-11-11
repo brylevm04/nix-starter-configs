@@ -92,8 +92,8 @@
     freetype
     libjpeg
     lcms2
-    libX11
-    libXt
+    xorg.libX11
+    xorg.libXt
     xorg.libXft
     xorg.libXext
     libwebp
