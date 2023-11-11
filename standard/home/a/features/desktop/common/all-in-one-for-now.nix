@@ -45,7 +45,6 @@
 
     ltex-ls # Spell checking LSP
 
-    htop
     htop-vim
     zenith
     yad
