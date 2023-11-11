@@ -29,8 +29,8 @@
     curlie
     curlftpfs
     wget
-    toybox
-    busybox
+    #toybox
+    #busybox
     lftp
     streamlink
     you-get
