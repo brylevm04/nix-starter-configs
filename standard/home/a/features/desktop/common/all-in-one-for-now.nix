@@ -42,15 +42,27 @@
 
     nil # Nix LSP
     nixfmt # Nix formatter
-    nix-inspect # See which pkgs are in your PATH
 
     ltex-ls # Spell checking LSP
-
-    tly # Tally counter
 
     htop
     htop-vim
     zenith
     yad
+
+    oxipng
+    pngquant
+    gifski
+    pngcrush
+    pngout
+    advancecoomp
+    optipng
+    jhead
+    jpegoptim
+    jpeg-archive
+    libjpeg
+    gifsicle
+    svgo
+    image_optim
   ];
 }
