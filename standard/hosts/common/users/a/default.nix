@@ -3,8 +3,9 @@ let ifTheyExist = groups: builtins.filter (group: builtins.hasAttr group config.
 in
 {
   users.mutableUsers = false;
+  users.groups.a = {};
   systemd.tmpfiles.rules = [
-    "d /persist/home/a 0750 a a"
+    "d /persist/home/a 0700 a a"
   ];
   users.users.a = {
     isNormalUser = true;
@@ -13,6 +14,7 @@ in
       "video"
       "audio"
     ] ++ ifTheyExist [
+      "a"
       "minecraft"
       "network"
       "wireshark"
