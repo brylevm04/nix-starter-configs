@@ -30,7 +30,7 @@
     extraSpecialArgs = { inherit inputs outputs; };
     users = {
       # Import your home-manager configuration
-      a = import ../../../../home/a/${config.networking.hostName}.nix;
+      a = import ../../home/a/${config.networking.hostName}.nix;
     };
   };
   system.stateVersion = "23.05";
