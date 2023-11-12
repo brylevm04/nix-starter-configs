@@ -25,6 +25,11 @@ in
     initialPassword = "password";
     packages = [ pkgs.home-manager ];
   };
-
-  home-manager.users.a = import ../../../../home/a/${config.networking.hostName}.nix;
+    home-manager = {
+    extraSpecialArgs = { inherit inputs outputs; };
+    users = {
+      # Import your home-manager configuration
+      a = import ../../../../home/a/${config.networking.hostName}.nix;
+    };
+  };
 }
