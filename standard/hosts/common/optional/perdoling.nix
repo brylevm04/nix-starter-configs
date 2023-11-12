@@ -21,7 +21,7 @@
     "net.ipv4.tcp_keepalive_probes" = 6;
     "net.ipv4.tcp_mtu_probing" = 1;
     "net.ipv4.tcp_sack" = 1;
-    "net.core.default_qdisc" = cake;
+    "net.core.default_qdisc" = "cake";
     "vm.max_map_count" = 2147483642;
     "vm.dirty_bytes" = (48 * 1024 * 124);
     "vm.dirty_background_bytes" = (16 * 1024 * 124);
