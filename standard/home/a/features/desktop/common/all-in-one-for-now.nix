@@ -292,6 +292,6 @@
     hpl
     tsung
     stress-ng
-
+    iperf
   ];
 }
