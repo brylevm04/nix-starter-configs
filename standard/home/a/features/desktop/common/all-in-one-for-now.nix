@@ -264,5 +264,18 @@
 
     vlc
 
+    # benchmark
+    hdparm
+    unixbench
+    fio
+    sysbench
+    hdparm
+    phoronix-test-suite
+    geekbench
+    # vdbench?
+    iozone
+    # iomter ?
+    # interbench ?
+
   ];
 }
