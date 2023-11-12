@@ -26,6 +26,13 @@
   services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.displayManager.sddm.enable = true;
   programs.fuse.userAllowOther = true;
+  home-manager = {
+    extraSpecialArgs = { inherit inputs outputs; };
+    users = {
+      # Import your home-manager configuration
+      a = import ../../../../home/a/${config.networking.hostName}.nix;
+    };
+  };
   system.stateVersion = "23.05";
 }
 
