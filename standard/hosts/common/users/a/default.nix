@@ -25,7 +25,7 @@ in
     initialPassword = "password";
     packages = [ pkgs.home-manager ];
   };
-    home-manager = {
+  home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
     users = {
       # Import your home-manager configuration
