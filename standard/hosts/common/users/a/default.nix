@@ -3,6 +3,9 @@ let ifTheyExist = groups: builtins.filter (group: builtins.hasAttr group config.
 in
 {
   users.mutableUsers = false;
+  systemd.tmpfiles.rules = [
+    "d /persist/home/a 0750 a a"
+  ];
   users.users.a = {
     isNormalUser = true;
     extraGroups = [
