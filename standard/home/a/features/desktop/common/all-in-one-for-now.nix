@@ -120,7 +120,6 @@
     toilet
     tty-clock
     sl
-    fortune
     fortune-kind
 
     bash
