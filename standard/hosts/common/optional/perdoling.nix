@@ -23,8 +23,8 @@
     "net.ipv4.tcp_sack" = 1;
     "net.core.default_qdisc" = cake;
     "vm.max_map_count" = 2147483642;
-    "vm.dirty_bytes" = ${(48 * 1024 * 124)};
-    "vm.dirty_background_bytes" = ${(16 * 1024 * 124)};
+    "vm.dirty_bytes" = (48 * 1024 * 124);
+    "vm.dirty_background_bytes" = (16 * 1024 * 124);
     "vm.vfs_cache_pressure" = 50;
     "vm.compaction_proactiveness" = 20;
     "vm.swappiness" = 180;
