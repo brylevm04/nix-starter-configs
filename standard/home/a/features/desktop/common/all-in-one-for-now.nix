@@ -161,6 +161,7 @@
 
     slade
     dosbox-staging
+    dosbox-x
 
 
     # ?
