@@ -160,6 +160,8 @@
     ffmpegthumbnailer
 
     slade
+    dosbox-staging
+    dosbox-x
 
 
     # ?
