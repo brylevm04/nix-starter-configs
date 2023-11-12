@@ -58,11 +58,84 @@
     libsForQt5.kolourpaint
     gimp-with-plugins
     krita
+    inkscape-with-extensions
     blender-hip
     onlyoffice-bin
     libreoffice-qt
     shotcut
     filezilla
+
+    kchmviewer
+    xchm
+    calibre
+    coolreader
+    cuneiform
+    gocr
+    ocrad
+    ocrmypdf
+    tesseract
+
+    clamav
+    ccrypt
+    age
+    gnupg
+    libsForQt5.kgpg
+    passphrase2pgp
+    scrypt
+    sequoia-sq
+    sequoia-sqv
+    sequoia-sqop
+    steghide
+    stegseek
+
+    bc
+    calc
+    clac
+    kalker
+    libqalculate
+    #
+    qalculate-qt
+    galculator
+    libsForQt5.kcalc
+    speedcrunch
+    xorg.xcalc
+
+    screenfetch
+    pridefetch
+    neofetch
+    ipfetch
+    freshfetch
+    hyfetch
+    fastfetch
+    asciiquarium
+    banner
+    boxes
+    cbonsai
+    catimg
+    cmatrix
+    figlet
+    jp2a
+    neo
+    nyancat
+    toilet
+    tty-clock
+    sl
+
+    bash
+    elvish
+    es
+    fish
+    ion
+    ksh
+    mksh
+    murex
+    nushellFull
+    oksh
+    powershell
+    tcsh
+    xonsh
+    yash
+    zsh
 
     #dillo
     dillong
