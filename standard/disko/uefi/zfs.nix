@@ -57,7 +57,7 @@
       mountOptions = [
         "size=100%"
         "defaults"
-        "mode=777"
+        "mode=750"
       ];
     };
     zpool = {

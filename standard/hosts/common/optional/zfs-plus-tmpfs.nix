@@ -34,7 +34,7 @@ in
     "/home/a" = {
       device = "none";
       fsType = "tmpfs";
-      options = [ "size=100%" "defaults" "mode=777" ];
+      options = [ "size=100%" "defaults" "mode=750" ];
     };
 
     "/boot" = {
