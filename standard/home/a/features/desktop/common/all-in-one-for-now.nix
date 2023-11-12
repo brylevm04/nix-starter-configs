@@ -120,6 +120,8 @@
     toilet
     tty-clock
     sl
+    fortune
+    fortune-kind
 
     bash
     elvish
@@ -144,6 +146,10 @@
     links2
     libsForQt5.falkon
     libsForQt5.konqueror
+    w3m
+    elinks
+    links2
+    lynx
 
     amfora
     castor
