@@ -276,6 +276,22 @@
     iozone
     # iomter ?
     # interbench ?
+    hyperfine
+    nbench
+    glmark2
+    bench
+    rewrk
+    dbench
+    bonnie
+    ghz
+    lzbench
+    iomelt
+    kdiskmark
+    netperf
+    bandwidth
+    hpl
+    tsung
+    stress-ng
 
   ];
 }
