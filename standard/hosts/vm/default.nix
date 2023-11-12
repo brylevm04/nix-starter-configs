@@ -2,6 +2,7 @@
 
 {
   imports = [
+    inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
   
     ../common/global
@@ -25,6 +26,13 @@
   services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.displayManager.sddm.enable = true;
   programs.fuse.userAllowOther = true;
+  home-manager = {
+    extraSpecialArgs = { inherit inputs outputs; };
+    users = {
+      # Import your home-manager configuration
+      your-username = import ../../home/a/vm.nix;
+    };
+  };
   system.stateVersion = "23.05";
 }
 
