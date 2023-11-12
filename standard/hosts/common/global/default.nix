@@ -3,7 +3,6 @@
   imports = [
     inputs.home-manager.nixosModules.home-manager
     ./locale.nix
-    ./nix.nix
   ] ++ (builtins.attrValues outputs.nixosModules);
 
   nixpkgs = {
