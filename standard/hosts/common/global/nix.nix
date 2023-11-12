@@ -16,12 +16,12 @@
     nixPath = [ "/etc/nix/path" ];
     # Add nixpkgs input to NIX_PATH
     # This lets nix2 commands still use <nixpkgs>
-    environment.etc =
-      lib.mapAttrs'
-        (name: value: {
-          name = "nix/path/${name}";
-          value.source = value.flake;
-        })
-        config.nix.registry;
   };
+  environment.etc =
+    lib.mapAttrs'
+      (name: value: {
+        name = "nix/path/${name}";
+        value.source = value.flake;
+      })
+      config.nix.registry;
 }
