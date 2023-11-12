@@ -61,6 +61,7 @@
     inkscape-with-extensions
     blender-hip
     onlyoffice-bin
+    libsForQt5.kate
     libreoffice-qt
     shotcut
     filezilla
