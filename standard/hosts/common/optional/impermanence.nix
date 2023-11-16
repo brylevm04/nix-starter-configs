@@ -7,13 +7,13 @@
   environment.persistence."/persist/" = {
     hideMounts = true;
     directories = [
-#      "/etc/nixos"
+      "/etc/nixos"
       "/var/log"
       "/var/lib/bluetooth"
       "/var/lib/nixos"
       "/var/tmp"
       "/var/lib/systemd"
-#      "/etc/NetworkManager/system-connections"
+      "/etc/NetworkManager/system-connections"
       "/srv"
     ];
     files = [
