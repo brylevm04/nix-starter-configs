@@ -1,10 +1,7 @@
 { config, pkgs, inputs, ... }:
 
-let
-  impermanence = inputs.impermanence;
-in
 {
-  imports = [ "${impermanence}/nixos.nix" ];
+  imports = [ "${inputs.impermanence}/nixos.nix" ];
 
   # this folder is where the files will be stored (don't put it in tmpfs)
   environment.persistence."/persist/" = {
