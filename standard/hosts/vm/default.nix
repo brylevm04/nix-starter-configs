@@ -25,7 +25,7 @@
   };
 
   boot = {
-    kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
+    kernelPackages = inputs.nixpkgs-chaotic.linuxPackages_cachyos;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
   services.xserver.enable = true;
