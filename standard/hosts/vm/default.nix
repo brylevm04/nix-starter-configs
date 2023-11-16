@@ -18,6 +18,8 @@
     ../common/optional/security-sysctl.nix
     ../common/optional/unified-cgroup-hierarchy.nix
     ../common/optional/unprivileged-userns-clone.nix
+    ../common/optional/podman.nix
+    ../common/optional/auto-cpufreq.nix
   ];
 
   networking = {
