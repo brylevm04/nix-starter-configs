@@ -7,7 +7,7 @@
   environment.persistence."/persist/" = {
     hideMounts = true;
     directories = [
-      "/etc/nixos"
+#      "/etc/nixos"
       "/var/log"
       "/var/lib/bluetooth"
       "/var/lib/nixos"
