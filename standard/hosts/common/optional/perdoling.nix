@@ -40,7 +40,7 @@
     "fs.inotify.max_user_watches" = 524288;
     "kernel.sched_rt_runtime_us" = 980000;
     "kernel.nmi_watchdog" = 0;
-    "kernel.shmmax" = 18446744073692774399;
+    "kernel.shmmax" = 33554432;
     "kernel.msgmax" = 33554432;
     "kernel.msgmnb" = 33554432;
 
