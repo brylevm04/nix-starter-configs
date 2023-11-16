@@ -2,6 +2,7 @@
 
 {
   imports = [
+    inputs.nixpkgs-chaotic.nixosModules.default
     inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
   
@@ -25,7 +26,7 @@
   };
 
   boot = {
-    kernelPackages = pkgs.chaotic.linuxPackages_cachyos;
+    kernelPackages = pkgs.linuxPackages_cachyos;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
   services.xserver.enable = true;
