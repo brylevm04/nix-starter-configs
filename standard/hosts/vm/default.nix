@@ -9,6 +9,7 @@
     ../common/global
     ../common/users/a
 
+    ../common/optional/impermanence.nix
     ../common/optional/zfs-plus-tmpfs.nix
     ../common/optional/encrypted-root.nix
     ../common/optional/pipewire.nix
