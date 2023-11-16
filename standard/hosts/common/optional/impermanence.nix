@@ -4,7 +4,7 @@
   imports = [ "${inputs.impermanence}/nixos.nix" ];
 
   # this folder is where the files will be stored (don't put it in tmpfs)
-  environment.persistence."/persist/" = {
+  environment.persistence."/persist" = {
     hideMounts = true;
     directories = [
       "/etc/nixos"
