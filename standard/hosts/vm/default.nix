@@ -11,10 +11,12 @@
     ../common/optional/zfs-plus-tmpfs.nix
     ../common/optional/encrypted-root.nix
     ../common/optional/pipewire.nix
+    ../common/optional/zram.nix
     ../common/optional/perdoling.nix
     ../common/optional/sysrq.nix
     ../common/optional/security-sysctl.nix
     ../common/optional/unified-cgroup-hierarchy.nix
+    ../common/optional/unprivileged-userns-clone.nix
   ];
 
   networking = {
