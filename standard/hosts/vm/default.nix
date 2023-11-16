@@ -25,7 +25,7 @@
   };
 
   boot = {
-    kernelPackages = inputs.nixpkgs-chaotic.linuxPackages_cachyos;
+    kernelPackages = pkgs.linuxPackages_cachyos;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
   services.xserver.enable = true;
