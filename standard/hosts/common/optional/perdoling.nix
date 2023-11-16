@@ -62,17 +62,17 @@
 
   security.pam.loginLimits = [
     { domain = "@audio"; item = "rtprio" ; type = "-"   ; value = "99"       ; }
-    { domain = "*"; item = "nofile"; type = "-"; value = "9223372036854775807"; }
-    { domain = "*"; item = "memlock"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "fsize"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "data"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "rss"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "stack"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "cpu"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "nproc"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "as"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "locks"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "sigpending"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "msgqueue"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "nofile"; type = "-"; value = "9223372036854775807"; }
+    { domain = "@wheel"; item = "memlock"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "fsize"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "data"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "rss"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "stack"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "cpu"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "nproc"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "as"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "locks"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "sigpending"; type = "-"; value = "unlimited"; }
+    { domain = "@wheel"; item = "msgqueue"; type = "-"; value = "unlimited"; }
   ];
 }
