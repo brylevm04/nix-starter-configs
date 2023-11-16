@@ -9,12 +9,12 @@
     directories = [
       "/etc/nixos"
       "/var/log"
-      "/var/lib/bluetooth"
+#      "/var/lib/bluetooth"
       "/var/lib/nixos"
       "/var/tmp"
       "/var/lib/systemd"
-      "/etc/NetworkManager/system-connections"
-      "/srv"
+#      "/etc/NetworkManager/system-connections"
+#      "/srv"
     ];
     files = [
       #  NOTE: if you persist /var/log directory,  you should persist /etc/machine-id as well
