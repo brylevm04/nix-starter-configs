@@ -3,7 +3,7 @@
     enable = true;
   };
 
-  environment.persistence."/persist/" = {
+  environment.persistence."/persist" = {
     directories = [
       "/var/lib/containers"
     ];
