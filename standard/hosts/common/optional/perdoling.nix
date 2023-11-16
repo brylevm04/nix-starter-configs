@@ -60,19 +60,4 @@
     "w /sys/kernel/debug/sched/nr_migrate - - - - 8"
   ];
 
-  security.pam.loginLimits = [
-    { domain = "@audio"; item = "rtprio" ; type = "-"   ; value = "99"       ; }
-    { domain = "*"; item = "nofile"; type = "-"; value = "9223372036854775807"; }
-    { domain = "*"; item = "memlock"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "fsize"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "data"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "rss"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "stack"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "cpu"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "nproc"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "as"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "locks"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "sigpending"; type = "-"; value = "unlimited"; }
-    { domain = "*"; item = "msgqueue"; type = "-"; value = "unlimited"; }
-  ];
 }
