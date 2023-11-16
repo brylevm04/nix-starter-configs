@@ -6,6 +6,7 @@ in
   users.groups.a = {};
   systemd.tmpfiles.rules = [
     "d /persist/home/a 0700 a users"
+    "d /home/a 0700 a users"
   ];
   users.users.a = {
     isNormalUser = true;
