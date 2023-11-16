@@ -13,7 +13,7 @@
       "/var/lib/nixos"
       "/var/tmp"
       "/var/lib/systemd"
-      "/etc/NetworkManager/system-connections"
+#      "/etc/NetworkManager/system-connections"
       "/srv"
     ];
     files = [
