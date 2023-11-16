@@ -191,6 +191,7 @@
     nodejs
     nodenv
 
+    pngoptimizer
     oxipng
     pngquant
     gifski
