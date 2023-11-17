@@ -35,7 +35,7 @@
           gnupg
           age
 
-          linuxPackages_cachyos
+          pkgs.linuxPackages_cachyos
         ];
       };
     }
