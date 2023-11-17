@@ -17,7 +17,7 @@
   outputs = inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
     let
       pkgs = import inputs.nixpkgs {
-        inherit system imports;
+        inherit system;
       };
     in
     with pkgs;
