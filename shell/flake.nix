@@ -16,13 +16,13 @@
 
   outputs = inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
     let
+      overlays = [ (import nixpkgs-chaotic) ];
       pkgs = import inputs.nixpkgs {
-        inherit system;
+        inherit system overlays;
       };
     in
     with pkgs;
     {
-      imports = [ inputs.nixpkgs-chaotic.nixosModules.default ];
       devShells.default = mkShell {
         NIX_CONFIG = "extra-experimental-features = nix-command flakes repl-flake";
         buildInputs = [
