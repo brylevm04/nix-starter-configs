@@ -9,6 +9,18 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-chaotic.url = "https://flakehub.com/f/chaotic-cx/nyx/*.tar.gz";
     # Also see the 'unstable-packages' overlay at 'overlays/default.nix'.
+    hyprland = {
+      url = "github:hyprwm/hyprland";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    hyprwm-contrib = {
+      url = "github:hyprwm/contrib";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    hyprland-plugins = {
+      url = "github:hyprwm/hyprland-plugins";
+      inputs.hyprland.follows = "hyprland";
+    };
 
     # Home manager
     hardware.url = "github:nixos/nixos-hardware";
