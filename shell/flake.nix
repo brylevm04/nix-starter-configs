@@ -32,7 +32,6 @@
           pkgs.ssh-to-age
           pkgs.gnupg
           pkgs.age
-          inputs.nixpkgs-chaotic.packages.${pkgs.system}.alacritty_git
         ];
       };
     }
