@@ -22,7 +22,7 @@
       };
     in
     {
-      devShells."${system}".default = mkShell {
+      devShells."${system}".default = pkgs.mkShell {
         NIX_CONFIG = "extra-experimental-features = nix-command flakes repl-flake";
         buildInputs = [
           nix
