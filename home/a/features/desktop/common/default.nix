@@ -1,6 +1,5 @@
 {
   imports = [
-    ./browser.nix
-    ./all-in-one-for-now.nix
+    ./all-in-one.nix
   ];
 }

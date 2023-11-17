@@ -1,0 +1,63 @@
+{ pkgs, ... }:
+
+{
+  home.packages = with pkgs; [
+    pngoptimizer
+    oxipng
+    pngquant
+    gifski
+    pngcrush
+    pngout
+    advancecomp
+    optipng
+    jhead
+    jpegoptim
+    jpeg-archive
+    libjpeg
+    gifsicle
+    nodePackages_latest.svgo
+    image_optim
+    pngloss
+    guetzli
+
+    qoi
+
+    zlib
+    zopfli
+    fontconfig
+    ghostscript
+    liblqr1
+    libpng
+    libraw
+    libtiff
+    libxml2
+    libheif
+    djvulibre
+    libjxl
+    openexr
+    librsvg
+    pango
+    openjpeg
+    bzip2
+    freetype
+    libjpeg
+    lcms2
+    xorg.libX11
+    xorg.libXt
+    xorg.libXft
+    xorg.libXext
+    libwebp
+    libimagequant
+    libspectre
+    imlib2Full
+    openimageio
+    imagemagickBig
+    graphicsmagick
+    vips
+    imageworsener
+    gmic
+    gmic-qt
+    posterazor
+    ffmpegthumbnailer
+  ];
+}
