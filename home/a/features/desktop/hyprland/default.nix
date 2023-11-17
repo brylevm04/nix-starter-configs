@@ -28,7 +28,7 @@
         [
           # Program bindings
           "SUPER,Return,exec,${terminal}"
-        ]
+        ];
 
 
         };
