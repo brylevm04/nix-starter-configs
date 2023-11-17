@@ -25,15 +25,13 @@
       devShells."${system}".default = pkgs.mkShell {
         NIX_CONFIG = "extra-experimental-features = nix-command flakes repl-flake";
         buildInputs = [
-          nix
-          home-manager
-          git
-
-          sops
-          ssh-to-age
-          gnupg
-          age
-
+          pkgs.nix
+          pkgs.home-manager
+          pkgs.git
+          pkgs.sops
+          pkgs.ssh-to-age
+          pkgs.gnupg
+          pkgs.age
           pkgs.linuxPackages_cachyos
         ];
       };
