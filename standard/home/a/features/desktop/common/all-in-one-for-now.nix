@@ -244,6 +244,7 @@
     imlib2Full
     openimageio
     imagemagickBig
+    graphicsmagick
     vips
     imageworsener
     gmic
@@ -294,5 +295,42 @@
     tsung
     stress-ng
     iperf
+
+    duc
+    du-dust
+    gdu
+    gt5
+    ncdu
+    btop
+    libsForQt5.libksysguard
+    libsForQt5.plasma-systemmonitor
+    stacer
+    bottom
+  
+    dmidecode
+    hwinfo
+    hw-probe
+    inxi
+    nmon
+    zenmonitor
+    gpu-viewer
+    hardinfo
+    lshw
+    libsForQt5.kinfocenter
+    usbview
+    qjournalctl
+
+    ventoy-full
+    binwalk
+    woeusb-ng
+    popsicle
+    unetbootin
+
+    gron
+    fastgron
+    jid
+    jiq
+    jo
+    jshon
   ];
 }
