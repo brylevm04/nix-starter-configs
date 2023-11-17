@@ -34,6 +34,7 @@
 
   services.xserver.videoDrivers = [ "qxl" ];
   services.spice-vdagentd.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
 
   boot = {
     kernelPackages = pkgs.linuxPackages_cachyos;

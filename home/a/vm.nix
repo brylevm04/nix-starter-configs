@@ -1,6 +1,6 @@
 { inputs, outputs, ... }: {
   imports = [
     ./global
-    ./features/desktop/hyprland
+    ./features/desktop/kde
   ];
 }
