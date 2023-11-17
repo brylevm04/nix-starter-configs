@@ -32,7 +32,7 @@
           pkgs.ssh-to-age
           pkgs.gnupg
           pkgs.age
-          pkgs.alacritty_git
+          ((pkgs.linuxPackages_cachyos))
         ];
       };
     }
