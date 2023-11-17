@@ -18,7 +18,7 @@
     let
       imports = [ inputs.nixpkgs-chaotic.nixosModules.default ];
       pkgs = import inputs.nixpkgs {
-        inherit system overlays imports;
+        inherit system inputs.overlays imports;
       };
     in
     with pkgs;
