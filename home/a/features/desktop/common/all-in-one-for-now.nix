@@ -55,7 +55,6 @@
     qbittorrent
     qbittorrent-nox
 
-    libsForQt5.kolourpaint
     gimp-with-plugins
     krita
     inkscape-with-extensions
@@ -249,8 +248,27 @@
     imageworsener
     gmic
     gmic-qt
-    graphicsmagick
     posterazor
+
+    libsForQt5.kolourpaint
+    azpainter
+    CuboCore.corepaint
+    deepin.deepin-draw
+    drawing
+    drawpile
+    grafx2
+    mtpaint
+    mypaint
+    mypaint-brushes
+    libmypaint
+    photoflare
+    pinta
+    swappy
+    darktable
+    hugin
+    luminanceHDR
+    rawtherapee
+    digikam
 
     termimage
     gqview
