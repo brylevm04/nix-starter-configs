@@ -16,7 +16,7 @@
 
   outputs = inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
     let
-      overlays = [ (import nixpkgs-chaotic) ];
+      overlays = [ (import inputs.nixpkgs-chaotic) ];
       pkgs = import inputs.nixpkgs {
         inherit system overlays;
       };
