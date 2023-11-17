@@ -5,7 +5,7 @@
     inputs.nixpkgs-chaotic.nixosModules.default
     inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
-  
+
     ../common/global
     ../common/users/a
 
@@ -27,6 +27,13 @@
     hostName = "vm";
     useDHCP = true;
   };
+
+  environment.systemPackages = [
+    pkgs.xorg.xf86videoqxl
+  ];
+
+  services.xserver.videoDrivers = [ "qxl" ];
+  services.spice-vdagentd.enable = true;
 
   boot = {
     kernelPackages = pkgs.linuxPackages_cachyos;
