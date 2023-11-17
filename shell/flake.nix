@@ -14,7 +14,7 @@
   };
 
 
-  outputs = inputs: flake-utils.lib.eachDefaultSystem (system:
+  outputs = inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
     let
       imports = [ inputs.nixpkgs-chaotic.nixosModules.default ];
       pkgs = import nixpkgs {
