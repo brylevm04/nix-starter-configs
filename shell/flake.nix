@@ -32,7 +32,7 @@
           pkgs.ssh-to-age
           pkgs.gnupg
           pkgs.age
-          (((pkgs.linuxPackages_cachyos)))
+          inputs.chaotic.packages.${pkgs.system}.linuxPackages_cachyos
         ];
       };
     }
