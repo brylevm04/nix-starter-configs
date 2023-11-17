@@ -32,6 +32,8 @@
     pkgs.xorg.xf86videoqxl
   ];
 
+  services.xserver.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
   services.xserver.videoDrivers = [ "qxl" ];
   services.spice-vdagentd.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
@@ -40,8 +42,6 @@
     kernelPackages = pkgs.linuxPackages_cachyos;
     binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
   };
-  services.xserver.enable = true;
-  services.xserver.displayManager.sddm.enable = true;
   programs.fuse.userAllowOther = true;
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
