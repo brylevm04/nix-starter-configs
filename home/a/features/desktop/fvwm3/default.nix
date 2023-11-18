@@ -8,7 +8,7 @@
   home.file = {
     ".fvwm/config" = {
       source = ../../dotfiles/fvwm3/config
-    }
+    };
   };
 
   home.packages = with pkgs; [
