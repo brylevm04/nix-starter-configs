@@ -7,5 +7,14 @@
     xdragon
     alsa-utils
     ffmpeg-normalize
+    jamesdsp
+    qpwgraph
+    helvum
+    pwvucontrol
+    pw-viz
+    pw-volume
+    pipecontrol
+    easyeffects
+    noisetorch
   ];
 }
