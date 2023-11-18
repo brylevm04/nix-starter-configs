@@ -37,7 +37,7 @@
     libappindicator-gtk3
     #
     light
-    xorg.xbacklight
+    #xorg.xbacklight
     acpilight
     brightnessctl
     #
