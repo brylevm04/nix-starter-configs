@@ -7,7 +7,7 @@
 
   home.file = {
     ".fvwm/config" = {
-      source = ../../dotfiles/fvwm3/config;
+      source = ../../../dotfiles/fvwm3/config;
     };
   };
 
