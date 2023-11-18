@@ -33,8 +33,8 @@
     libwnck
     gtk-engine-murrine
     appmenu-gtk3-module
+    #libappindicator-gtk2
     libappindicator-gtk3
-    libappindicator-gtk2
     #
     light
     xorg.xbacklight
