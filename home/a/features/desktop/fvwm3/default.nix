@@ -30,7 +30,7 @@
     gtk3
     gtk4
     playerctl
-    ibwnck
+    libwnck
     gtk-engine-murrine
     appmenu-gtk3-module
     libappindicator-gtk3
