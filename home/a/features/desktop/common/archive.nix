@@ -17,7 +17,6 @@
     p7zip
     rar
     unrar
-    libunrar
     unar
     tarlz
     zip
