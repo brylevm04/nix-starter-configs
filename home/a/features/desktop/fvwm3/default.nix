@@ -5,6 +5,12 @@
     ../common
   ];
 
+  home.file = {
+    ".fvwm/config" = {
+      source = ../../dotfiles/fvwm3/config
+    }
+  };
+
   home.packages = with pkgs; [
     xdg-user-dirs
     xorg.xinit
