@@ -7,6 +7,7 @@
     libarchive
     cpio
     bzip2
+    lbzip2
     bzip3
     lrzip
     lz4
@@ -31,6 +32,9 @@
     unp
     arj
     ncompress
+    libxcomp
+    woff2
+    mozlz4a
     dar
     par2cmdline
     sharutils
@@ -40,5 +44,10 @@
     libzip
     zlib-ng
     zopfli
+    lepton
+    leptonica
+    pxz
+    ucl
+    efficient-compression-tool
   ];
 }
