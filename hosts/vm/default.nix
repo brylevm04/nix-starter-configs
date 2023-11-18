@@ -2,6 +2,7 @@
 
 {
   imports = [
+    inputs.nixpkgs-chaotic.nixosModules.default
     inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
 
