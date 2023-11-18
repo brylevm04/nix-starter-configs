@@ -1,0 +1,45 @@
+{ pkgs, ... }:
+
+{
+  home.packages = with pkgs; [
+    gnutar
+    tarlz
+    libarchive
+    cpio
+    bzip2
+    bzip3
+    lrzip
+    lz4
+    lzip
+    lzop
+    xz
+    zstd
+    p7zip
+    rar
+    unrar
+    libunrar
+    unar
+    tarlz
+    zip
+    unzipNLS
+    gzip
+    zpaq
+    zpaqd
+    zpaqfranz
+    lhasa
+    atool
+    dtrx
+    unp
+    arj
+    ncompress
+    dar
+    par2cmdline
+    sharutils
+    unzoo
+    vdo
+    brotli
+    libzip
+    zlib-ng
+    zopfli
+  ];
+}

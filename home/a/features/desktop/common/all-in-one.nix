@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./archive.nix
     ./browser.nix
     ./all-shells.nix
     ./benchmark.nix

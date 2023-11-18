@@ -88,6 +88,9 @@
       nixosConfigurations = {
         vm = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs outputs; };
+          imports = [
+            inputs.nixpkgs-chaotic.nixosModules.default
+          ];
           modules = [
             # > Our main nixos configuration file <
             ./hosts/vm
