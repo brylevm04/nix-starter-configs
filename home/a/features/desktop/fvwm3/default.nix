@@ -26,7 +26,7 @@
     dockbarx
     xfce.xfce4-dockbarx-plugin
     xterm
-    gtk2
+    #gtk2
     gtk3
     gtk4
     playerctl
