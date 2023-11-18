@@ -8,5 +8,6 @@
     jiq
     jo
     jshon
+    jq
   ];
 }
