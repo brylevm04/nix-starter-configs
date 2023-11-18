@@ -34,6 +34,9 @@
 
   services.xserver.enable = true;
   services.xserver.displayManager.sddm.enable = true;
+  services.xserver.windowManager.fvwm3 = {
+    enable = true;
+  };
 
   boot = {
     kernelPackages = pkgs.linuxPackages_cachyos;
