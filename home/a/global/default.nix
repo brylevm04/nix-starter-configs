@@ -2,6 +2,7 @@
 {
   imports = [
     inputs.impermanence.nixosModules.home-manager.impermanence
+    inputs.nixpkgs-chaotic.homeManagerModules.default
   ] ++ (builtins.attrValues outputs.homeManagerModules);
 
   nixpkgs = {
