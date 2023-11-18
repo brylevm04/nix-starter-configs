@@ -44,7 +44,6 @@
     libzip
     zlib-ng
     zopfli
-    lepton
     leptonica
     pxz
     ucl
