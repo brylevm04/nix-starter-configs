@@ -16,7 +16,7 @@
     zstd
     p7zip
     rar
-    unrar
+    #unrar
     unar
     tarlz
     zip
