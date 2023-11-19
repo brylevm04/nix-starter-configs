@@ -8,6 +8,11 @@
     # at the same time. Here's an working example:
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-chaotic.url = "https://flakehub.com/f/chaotic-cx/nyx/*.tar.gz";
+    plasma-manager = {
+      url = "github:pjones/plasma-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";                    
+    };
     # Also see the 'unstable-packages' overlay at 'overlays/default.nix'.
     hyprland = {
       url = "github:hyprwm/hyprland";
