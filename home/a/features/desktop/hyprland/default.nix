@@ -20,6 +20,14 @@
     swaybg
     kanshi
     waybar
+    eww
+    dunst
+    libnotify
+    hyprpaper
+    rofi-wayland
+    wofi
+    bemenu
+    tofi
   ];
 
   wayland.windowManager.hyprland = {
@@ -31,6 +39,7 @@
         kb_options = "grp:alt_shift_toggle";
         touchpad.disable_while_typing = false;
       };
+      
       bind =
         let
           terminal = "${pkgs.xterm}/bin/xterm";
