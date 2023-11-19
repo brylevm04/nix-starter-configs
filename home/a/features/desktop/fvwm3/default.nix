@@ -81,5 +81,6 @@
     #
     xorg.iceauth
     nitrogen
+    labwc
   ];
 }
