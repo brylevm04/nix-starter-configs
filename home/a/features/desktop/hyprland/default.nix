@@ -34,10 +34,15 @@
     enable = true;
     package = pkgs.inputs.hyprland.hyprland;
     settings = {
+      general = {
+        allow_tearing = true;
+      };
       input = {
         kb_layout = "ru,us";
         kb_options = "grp:alt_shift_toggle";
         touchpad.disable_while_typing = false;
+        accel_profile = "flat";
+        follow_mouse = 1;
       };
 
       bind =
