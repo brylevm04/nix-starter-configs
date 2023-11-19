@@ -20,7 +20,6 @@
     slurp
     swaybg
     swaylock
-    ocrScript
     wf-recorder
     wl-clipboard
     wlogout
