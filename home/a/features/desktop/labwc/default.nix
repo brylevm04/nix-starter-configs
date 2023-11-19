@@ -22,6 +22,9 @@
     wezterm
     bemenu
     mako
-    xfce.xfce4-panel
+    swayidle
+    swaybg
+    kanshi
+    waybar
   ];
 }
