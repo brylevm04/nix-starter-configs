@@ -13,5 +13,6 @@
     stacer
     bottom
     htop-vim
+    qjournalctl
   ];
 }

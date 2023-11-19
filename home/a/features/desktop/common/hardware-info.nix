@@ -13,6 +13,17 @@
     lshw
     libsForQt5.kinfocenter
     usbview
-    qjournalctl
+    #
+    edid-decode
+    edid-generator
+    libdisplay-info
+    rwedid
+    read-edid
+    acpi
+    acpid
+    acpic
+    acpitool
+    acpidump-all
+    acpica-tools
   ];
 }
