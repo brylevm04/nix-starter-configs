@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./display-brightness.nix
     ./archive.nix
     ./browser.nix
     ./all-shells.nix

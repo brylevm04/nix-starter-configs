@@ -25,5 +25,14 @@
     acpitool
     acpidump-all
     acpica-tools
+    libsmbios
+    powertop
+    tlp
+    libsForQt5.powerdevil
+    poweralertd
+    throttled
+    limitcpu
+    undervolt
+    evillimiter
   ];
 }
