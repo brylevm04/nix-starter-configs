@@ -14,7 +14,6 @@
     vipsdisp
     genimage
     meh
-    photofield
 
     kchmviewer
     xchm
