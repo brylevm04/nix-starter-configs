@@ -21,5 +21,7 @@
     alacritty
     wezterm
     bemenu
+    mako
+    xfce.xfce4-panel
   ];
 }
