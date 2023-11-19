@@ -9,7 +9,6 @@
   wayland.windowManager.hyprland = {
     enable = true;
     package = pkgs.inputs.hyprland.hyprland;
-    recommendedEnvironment = true;
     settings = {
       input = {
         kb_layout = "ru,us";
