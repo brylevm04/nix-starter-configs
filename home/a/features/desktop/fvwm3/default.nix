@@ -41,24 +41,6 @@
     appmenu-gtk3-module
     #libappindicator-gtk2
     libappindicator-gtk3
-    #
-    light
-    #xorg.xbacklight
-    acpilight
-    brightnessctl
-    #
-    edid-decode
-    edid-generator
-    libdisplay-info
-    rwedid
-    read-edid
-    acpi
-    acpid
-    acpic
-    acpitool
-    acpidump-all
-    acpica-tools
-    #
     pamixer
     ncpamixer
     wmctrl
@@ -81,6 +63,5 @@
     #
     xorg.iceauth
     nitrogen
-    labwc
   ];
 }
