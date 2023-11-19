@@ -60,7 +60,14 @@
         ];
         allowOther = true;
       };
+      "/persist/home/a/chromium" = {
+        removePrefixDirectory = false;
+        allowOther = true;
+        directories = [
+          ".config/chromium"
+          ".cache/chromium"
+        ];
+      };
     };
   };
-
 }

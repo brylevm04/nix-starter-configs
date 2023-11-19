@@ -1,6 +1,6 @@
 { inputs, outputs, ... }: {
   imports = [
     ./global
-    ./features/desktop/labwc
+    ./features/desktop/kde
   ];
 }
