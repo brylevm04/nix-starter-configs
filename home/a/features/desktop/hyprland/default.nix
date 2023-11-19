@@ -5,6 +5,22 @@
     ../common
   ];
 
+  home.packages = with pkgs; [
+    labwc
+    foot
+    zellij
+    kanshi
+    fuzzel
+    wlay
+    alacritty
+    wezterm
+    bemenu
+    mako
+    swayidle
+    swaybg
+    kanshi
+    waybar
+  ];
 
   wayland.windowManager.hyprland = {
     enable = true;
