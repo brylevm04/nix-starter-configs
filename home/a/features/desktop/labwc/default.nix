@@ -18,5 +18,8 @@
     kanshi
     fuzzel
     wlay
+    alacritty
+    wezterm
+    bemenu
   ];
 }
