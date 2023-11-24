@@ -36,7 +36,7 @@
   services.xserver = {
     enable = true;
     displayManager.sddm.enable = true;
-    displayManager.defaultSession = "plasma";
+    # displayManager.defaultSession = "plasma";
   };
   programs.dconf.enable = true;
   services.dbus.packages = with pkgs; [ gnome2.GConf ];
