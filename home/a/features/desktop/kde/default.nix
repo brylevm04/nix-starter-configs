@@ -2,7 +2,7 @@
 
 {
   imports = [
-    inputs.home-manager.nixosModules.home-manager
+    inputs.plasma-manager.homeManagerModules.plasma-manager
 
     ../common
   ];
