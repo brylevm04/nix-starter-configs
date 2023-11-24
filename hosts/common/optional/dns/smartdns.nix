@@ -6,7 +6,7 @@
   ];
 
   networking = {
-    nameservers = [ "127.0.0.1" "::1" ];
+    nameservers = [ "127.0.0.1:5053" "::1:5053" ];
     # If using dhcpcd:
     dhcpcd.extraConfig = "nohook resolv.conf";
     # If using NetworkManager:
@@ -15,7 +15,7 @@
 
   services.smartdns.enable = true;
   services.smartdns.settings = rec {
-    bind = "127.0.0.1:53";
+    bind = "127.0.0.1:5053";
     bind-tcp = "${bind}";
     response-mode = "fastest-ip";
 
