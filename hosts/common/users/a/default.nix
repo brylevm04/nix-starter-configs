@@ -9,6 +9,7 @@ in
     "d /home/a 0700 a users"
   ];
   users.users.a = {
+    description = "Main user of this NixOS deployment";
     isNormalUser = true;
     extraGroups = [
       "wheel"
@@ -27,6 +28,14 @@ in
       "git"
       "libvirtd"
       "deluge"
+      "adbusers"
+      "vboxusers"
+      "dialout"
+      "networkmanager"
+      "sambashare"
+      "rtkit"
+      "kvm"
+      "cdrom"
     ];
 
     initialPassword = "password";
