@@ -39,6 +39,7 @@
     };
 
     persistence = {
+      hideMounts = true;
       "/persist/home/a" = {
         directories = [
           "Downloads"
