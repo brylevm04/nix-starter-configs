@@ -38,13 +38,12 @@
     displayManager.sddm.enable = true;
     # displayManager.defaultSession = "plasma";
   };
-  programs.dconf.enable = true;
-  services.dbus.packages = with pkgs; [ gnome2.GConf ];
 
   boot = {
     kernelPackages = pkgs.linuxPackages_cachyos;
-    binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" ];
+    binfmt.emulatedSystems = [ "aarch64-linux" "i686-linux" "riscv64-linux" ];
   };
+
   programs.fuse.userAllowOther = true;
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
