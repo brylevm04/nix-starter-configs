@@ -2,8 +2,6 @@
 
 {
   imports = [
-    inputs.plasma-manager.homeManagerModules.plasma-manager
-
     ../common
   ];
   programs.plasma = {

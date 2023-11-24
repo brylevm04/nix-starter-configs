@@ -2,6 +2,7 @@
 {
   imports = [
     inputs.impermanence.nixosModules.home-manager.impermanence
+    inputs.plasma-manager.homeManagerModules.plasma-manager
     inputs.nixpkgs-chaotic.homeManagerModules.default
   ] ++ (builtins.attrValues outputs.homeManagerModules);
 
