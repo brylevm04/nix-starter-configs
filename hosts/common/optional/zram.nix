@@ -1,5 +1,10 @@
+{ pkgs, ... }:
 
 {
+
+  environment.systemPackages = with pkgs; [
+    coreutils-full
+  ];
   zramSwap = {
     enable = true;
     memoryPercent = 200;
