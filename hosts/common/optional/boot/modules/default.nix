@@ -8,7 +8,6 @@
         "vfio_pci"
         "vfio"
         "vfio_iommu_type1"
-        "modconf"
         "radeon"
         "amdgpu"
         "i915"
