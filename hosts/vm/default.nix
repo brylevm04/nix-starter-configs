@@ -37,7 +37,7 @@
 
   networking = {
     hostName = "vm";
-    useDHCP = true;
+    networkmanager.enable = true;
   };
 
   environment.systemPackages = [
