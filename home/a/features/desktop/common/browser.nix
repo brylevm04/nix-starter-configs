@@ -31,5 +31,7 @@
     eschalot
     orjail
     obfs4
+    dnsutils
+    dig
   ];
 }
