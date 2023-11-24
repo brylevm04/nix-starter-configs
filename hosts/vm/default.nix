@@ -10,7 +10,7 @@
     ../common/users/a
 
     ../common/optional/sysctl/common
-    ../common/optional/sysctl/common/desktop
+    ../common/optional/sysctl/desktop
     ../common/optional/boot/modules
     ../common/optional/boot/params
 
