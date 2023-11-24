@@ -12,5 +12,5 @@
     xdg-desktop-portal-lxqt
     xdg-desktop-portal-hyprland
     xdg-desktop-portal-gnome
-  ]
+  ];
 }
