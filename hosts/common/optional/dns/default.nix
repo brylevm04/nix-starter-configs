@@ -23,11 +23,10 @@
       dnscrypt_servers = true;
       odoh_servers = false;
       doh_servers = false;
-      skip_incompatible = true;
       anonymized_dns = {
         routes = [
           {
-            server_name = "dnscrypt.ca-1";
+            server_name = "*";
             via = [ "*" ];
           }
         ];
