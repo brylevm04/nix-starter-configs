@@ -30,6 +30,7 @@
     ../common/optional/logind.nix
     ../common/optional/oomd.nix
     ../common/optional/plymouth.nix
+    ../common/optional/xdg-portal.nix
   ];
 
   networking = {
