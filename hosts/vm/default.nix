@@ -9,18 +9,27 @@
     ../common/global
     ../common/users/a
 
+    ../common/optional/sysctl/common
+    ../common/optional/sysctl/common/desktop
+    ../common/optional/boot/modules
+    ../common/optional/boot/params
+
     ../common/optional/impermanence.nix
     ../common/optional/zfs-plus-tmpfs.nix
     ../common/optional/encrypted-root.nix
     ../common/optional/pipewire.nix
     ../common/optional/zram.nix
-    ../common/optional/perdoling.nix
-    ../common/optional/sysrq.nix
-    ../common/optional/security-sysctl.nix
-    ../common/optional/unified-cgroup-hierarchy.nix
-    ../common/optional/unprivileged-userns-clone.nix
     ../common/optional/podman.nix
     ../common/optional/auto-cpufreq.nix
+    ../common/optional/ananicy.nix
+    ../common/optional/dconf.nix
+    ../common/optional/firmware.nix
+    ../common/optional/flatpak.nix
+    ../common/optional/fstrim.nix
+    ../common/optional/irqbalance.nix
+    ../common/optional/logind.nix
+    ../common/optional/oomd.nix
+    ../common/optional/plymouth.nix
   ];
 
   networking = {
