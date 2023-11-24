@@ -1,0 +1,16 @@
+{ pkgs, ... }:
+
+{
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = with pkgs; [
+    xdg-desktop-portal
+    xdg-desktop-portal-wlr
+    xdg-desktop-portal-xapp
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal-kde
+    xdg-desktop-portal-pantheon
+    xdg-desktop-portal-lxqt
+    xdg-desktop-portal-hyprland
+    xdg-desktop-portal-gnome
+  ]
+}
