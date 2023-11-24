@@ -14,6 +14,7 @@
     ../common/optional/boot/modules
     ../common/optional/boot/params
     ../common/optional/dns
+    ../common/optional/ntp
 
     ../common/optional/impermanence.nix
     ../common/optional/zfs-plus-tmpfs.nix
