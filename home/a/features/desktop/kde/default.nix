@@ -6,6 +6,18 @@
 
     ../common
   ];
+
+  home.packages = with pkgs; [
+    xsettingsd
+    go-mtpfs
+    xclip
+    vokoscreen-ng
+    virt-manager
+    ix
+    dfeet
+    bustle
+  ];
+
   programs.plasma = {
     enable = true;
 

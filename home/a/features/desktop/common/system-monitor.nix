@@ -14,5 +14,7 @@
     bottom
     htop-vim
     qjournalctl
+    sysprof
+    libsysprof-capture
   ];
 }
