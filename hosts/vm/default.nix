@@ -48,9 +48,6 @@
   programs.fuse.userAllowOther = true;
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
-    extraModules = [
-      inputs.plasma-manager.homeManagerModules.plasma-manager
-    ];
     users = {
       # Import your home-manager configuration
       a = import ../../home/a/${config.networking.hostName}.nix;
