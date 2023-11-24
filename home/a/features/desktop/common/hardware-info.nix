@@ -34,5 +34,12 @@
     limitcpu
     undervolt
     evillimiter
+    pciutils
+    usbutils
+    inetutils
+    psmisc
+    #
+    cpuset
+
   ];
 }
