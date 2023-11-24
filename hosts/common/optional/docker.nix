@@ -1,3 +1,5 @@
+{ config, environment, ... }:
+
 {
   virtualisation.docker = {
     enable = true;
