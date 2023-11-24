@@ -37,7 +37,6 @@
     enable = true;
     displayManager.sddm.enable = true;
     displayManager.defaultSession = "plasma";
-    desktopManager.plasma5.enable = true;
   };
   programs.dconf.enable = true;
   services.dbus.packages = with pkgs; [ gnome2.GConf ];
@@ -49,6 +48,9 @@
   programs.fuse.userAllowOther = true;
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
+    extraModules = [
+      inputs.plasma-manager.homeManagerModules.plasma-manager
+    ];
     users = {
       # Import your home-manager configuration
       a = import ../../home/a/${config.networking.hostName}.nix;
