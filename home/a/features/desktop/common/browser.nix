@@ -23,5 +23,13 @@
     kristall
 
     filezilla
+    tor
+    torsocks
+    tor-browser
+    arti
+    meek
+    eschalot
+    orjail
+    obfs4
   ];
 }

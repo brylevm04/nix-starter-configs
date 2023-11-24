@@ -34,5 +34,7 @@
     kubo
     qbittorrent
     qbittorrent-nox
+    deluge-gtk
+    torrenttools
   ];
 }
