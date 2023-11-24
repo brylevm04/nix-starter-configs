@@ -27,7 +27,7 @@
       anonymized_dns = {
         routes = [
           {
-            server_name = "*";
+            server_name = "dnscrypt.ca-1";
             via = [ "*" ];
           }
         ];
