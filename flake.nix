@@ -11,7 +11,7 @@
     plasma-manager = {
       url = "github:pjones/plasma-manager";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";                    
+      inputs.home-manager.follows = "home-manager";
     };
     # Also see the 'unstable-packages' overlay at 'overlays/default.nix'.
     hyprland = {
@@ -48,6 +48,7 @@
     , nixpkgs
     , nixpkgs-chaotic
     , home-manager
+    , plasma-manager
     , ...
     } @ inputs:
     let
@@ -96,6 +97,9 @@
           modules = [
             # > Our main nixos configuration file <
             ./hosts/vm
+            {
+              home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ];
+            }
           ];
         };
       };
