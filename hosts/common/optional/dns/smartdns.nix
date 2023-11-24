@@ -17,6 +17,7 @@
   services.smartdns.settings = rec {
     bind = "127.0.0.1:53";
     bind-tcp = "${bind}";
+    response-mode = "fastest-ip";
 
     server = [
       "8.8.8.8"
