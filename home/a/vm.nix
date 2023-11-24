@@ -1,6 +1,6 @@
 { inputs, outputs, ... }: {
   imports = [
     ./global
-    ./features/desktop/wayland
+    ./features/desktop/kde
   ];
 }

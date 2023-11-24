@@ -1,7 +1,12 @@
-{ inputs, lib, config, pkgs, ... }: {
+{ ... }:
+
+{
   imports = [
     ../common
   ];
+  programs.plasma = {
+    enable = true;
+  };
 
   home.persistence."/persist/home/a/plasma" = {
     removePrefixDirectory = false;
