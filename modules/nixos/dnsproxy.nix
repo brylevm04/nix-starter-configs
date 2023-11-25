@@ -90,7 +90,7 @@ in
         AmbientCapabilities = "cap_net_bind_service";
         NoNewPrivileges = true;
         DynamicUser = true;
-        ExecStart = "${pkgs.dnsproxy}/bin/dnsproxy ${dnsProxy} ${dnsBootstrap} -p ${toString cfg.proxyPort} ${optionalString (chooseFastestIP) "--fastest-addr"} ${optionalString (allServers) "--all-servers"} ${cfg.proxyArgs}";
+        ExecStart = "${pkgs.dnsproxy}/bin/dnsproxy ${dnsProxy} ${dnsBootstrap} -p ${toString cfg.dnsPort} ${optionalString (chooseFastestIP) "--fastest-addr"} ${optionalString (allServers) "--all-servers"} ${cfg.proxyArgs}";
         Restart = "on-failure";
       };
     };
