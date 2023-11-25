@@ -51,7 +51,7 @@
     unionfs-fuse
     erofs-utils
     squashfs-tools-ng
-    ceph
+    # ceph
     ceph-client
     glusterfs
     kubo
