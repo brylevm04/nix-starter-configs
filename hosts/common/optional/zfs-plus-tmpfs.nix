@@ -9,7 +9,7 @@ in
     initrd = {
       availableKernelModules = [ "aesni_intel" "cryptd" "uas" "usbcore" "usb_storage" "vfat" "nls_cp437" "nls_iso8859_1" ];
     };
-    supportedFilesystems = [ "ntfs" "btrfs" "ext4" "ext3" "xfs" "vfat" "zfs" "ntfs3" ];
+    supportedFilesystems = [ "zfs" ];
     kernelParams = [ "elevator=none" ];
     loader = {
       grub = {
