@@ -40,6 +40,6 @@
     chooseFastestIP = true;
     openFirewall = false;
     allServers = true;
-    proxyArgs = "--cache --cache-optimistic --cache-size=256k --http3 --edns --edns-addr=\"178.70.30.0\"";
+    proxyArgs = "--cache --cache-optimistic --cache-size=${256 * 1024} --http3 --edns --edns-addr=\"178.70.30.0\"";
   };
 }
