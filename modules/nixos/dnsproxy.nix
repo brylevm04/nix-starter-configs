@@ -2,7 +2,7 @@
 
 with lib;
 let
-  cfg = config.indexyz.services.dns;
+  cfg = config.services.dnsproxy;
 
   createProxyUpstream = server: "-u ${server}";
   createBootstrap = server: "-b ${server}";
@@ -11,17 +11,17 @@ let
 in
 {
   options = {
-    indexyz.services.dns = {
+    options.services.dnsproxy = {
       enable = mkEnableOption "DNS Server";
 
       chooseFastestIP = mkOption {
         default = false;
-        type = types.bool;        
+        type = types.bool;
       };
 
       allServers = mkOption {
         default = false;
-        type = types.bool;        
+        type = types.bool;
       };
 
       openFirewall = mkOption {
@@ -30,6 +30,16 @@ in
       };
 
       upstreams = mkOption {
+        default = [ ];
+        example = ''
+          8.8.8.8:53
+          tls://dns.adguard.com
+          https://dns.adguard.com/dns-query
+        '';
+        type = with types; listOf str;
+      };
+
+      bootstraps = mkOption {
         default = [ ];
         example = ''
           8.8.8.8:53
