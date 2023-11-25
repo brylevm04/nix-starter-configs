@@ -1,8 +1,6 @@
 { inputs, config, pkgs, ... }:
 
 {
-  config.joypixels.acceptLicense = true;
-
   fonts.packages = with pkgs; [
     # ...various
     dejavu_fonts
