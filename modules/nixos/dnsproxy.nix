@@ -7,7 +7,7 @@ let
   createProxyUpstream = server: "-u ${server}";
   createBootstrap = server: "-b ${server}";
   dnsProxy = concatStringsSep " " (map createProxyUpstream cfg.upstreams);
-  dnsBootstrap = concatStringsSep " " (map createBootstrap cfg.bootstrap);
+  dnsBootstrap = concatStringsSep " " (map createBootstrap cfg.bootstraps);
 in
 {
   options = {
