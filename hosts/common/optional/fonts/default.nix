@@ -37,7 +37,6 @@
     enableDefaultPackages = true;
     fontconfig = {
       enable = true;
-      crOSMaps = true;
       defaultFonts = {
         emoji = [ "JoyPixels" ];
         monospace = [ "Ubuntu" "Symbols Nerd Font" ];
