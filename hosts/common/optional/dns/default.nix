@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./smartdns.nix
+    ./dnsproxy.nix
   ];
 }
