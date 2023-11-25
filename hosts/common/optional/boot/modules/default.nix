@@ -25,6 +25,14 @@
         "virtio_scsi"
         "9p"
         "9pnet_virtio"
+        "aesni_intel"
+        "cryptd"
+        "uas"
+        "usbcore"
+        "usb_storage"
+        "vfat"
+        "nls_cp437"
+        "nls_iso8859_1"
       ];
       kernelModules = [
         "virtio_balloon"
