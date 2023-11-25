@@ -31,7 +31,7 @@
     ../common/optional/fstrim.nix
     ../common/optional/irqbalance.nix
     ../common/optional/logind.nix
-    ../common/optional/oomd.nix
+    ../common/optional/oom.nix
     ../common/optional/plymouth.nix
     ../common/optional/xdg-portal.nix
     ../common/optional/support-all-fs.nix
