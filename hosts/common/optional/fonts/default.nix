@@ -1,7 +1,7 @@
 { inputs, pkgs, ... }:
 
 {
-  home.packages = with pkgs; [
+  fonts.packages = with pkgs; [
     # ...various
     dejavu_fonts
     powerline-fonts
