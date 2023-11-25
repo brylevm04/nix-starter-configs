@@ -55,6 +55,12 @@ in
         type = types.int;
       };
 
+      listenAddress = mkOption {
+        default = "127.0.0.1";
+        description = "dnsproxy listen address";
+        type = types.str;
+      };
+
       dnsPort = mkOption {
         default = 53;
         description = "Final dns listening port";
@@ -90,7 +96,7 @@ in
         AmbientCapabilities = "cap_net_bind_service";
         NoNewPrivileges = true;
         DynamicUser = true;
-        ExecStart = "${pkgs.dnsproxy}/bin/dnsproxy ${dnsProxy} ${dnsBootstrap} -p ${toString cfg.dnsPort} ${optionalString (cfg.chooseFastestIP) "--fastest-addr"} ${optionalString (cfg.allServers) "--all-servers"} ${cfg.proxyArgs}";
+        ExecStart = "${pkgs.dnsproxy}/bin/dnsproxy ${dnsProxy} ${dnsBootstrap} -l ${toString cfg.listenAddress} -p ${toString cfg.dnsPort} ${optionalString (cfg.chooseFastestIP) "--fastest-addr"} ${optionalString (cfg.allServers) "--all-servers"} ${cfg.proxyArgs}";
         Restart = "on-failure";
       };
     };
