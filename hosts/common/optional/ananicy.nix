@@ -1,6 +1,9 @@
 { pkgs, ... }:
 
 {
-  services.ananicy.enable = true;
-  services.ananicy.package = pkgs.ananicy-cpp;
+  services.ananicy = {
+    enable = true;
+    package = pkgs.ananicy-cpp;
+    rulesProvider = pkgs.ananicy-rules-cachyos;
+  }
 }
