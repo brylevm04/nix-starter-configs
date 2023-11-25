@@ -24,6 +24,6 @@
     chooseFastestIP = true;
     openFirewall = false;
     allServers = true;
-    proxyArgs = "--cache --edns --edns-addr=\"178.70.30.0\""
+    proxyArgs = "--cache --edns --edns-addr=\"178.70.30.0\"";
   };
 }
