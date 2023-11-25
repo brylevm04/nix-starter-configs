@@ -11,7 +11,7 @@ let
 in
 {
   options = {
-    options.services.dnsproxy = {
+    services.dnsproxy = {
       enable = mkEnableOption "DNS Server";
 
       chooseFastestIP = mkOption {
