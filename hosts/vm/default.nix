@@ -34,6 +34,7 @@
     ../common/optional/oomd.nix
     ../common/optional/plymouth.nix
     ../common/optional/xdg-portal.nix
+    ../common/optional/support-all-fs.nix
   ];
 
   networking = {
