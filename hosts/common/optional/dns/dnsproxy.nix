@@ -28,6 +28,10 @@
       "1.0.0.1"
       "https://dns11.quad9.net/dns-query"
       "tls://dns11.quad9.net"
+      "4.2.2.1"
+      "4.2.2.2"
+      "80.80.80.80"
+      "80.80.81.81"
     ];
 
     chooseFastestIP = true;
