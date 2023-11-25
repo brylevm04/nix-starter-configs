@@ -42,8 +42,8 @@
     go-mtpfs
     libmtp
     # stackable
-    ecryptfs
-    ecryptfs-helper
+    # ecryptfs
+    # ecryptfs-helper
     mergerfs
     mergerfs-tools
     mhddfs
