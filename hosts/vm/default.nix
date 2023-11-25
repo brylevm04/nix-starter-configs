@@ -16,6 +16,7 @@
     ../common/optional/boot/params/desktop
     ../common/optional/dns
     ../common/optional/ntp
+    ../common/optional/fonts
 
     ../common/optional/impermanence.nix
     ../common/optional/zfs-plus-tmpfs.nix
