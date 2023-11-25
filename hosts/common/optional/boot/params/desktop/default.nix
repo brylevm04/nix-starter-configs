@@ -1,0 +1,7 @@
+{ ... }:
+
+{
+  imports = [
+    ./no-spectre.nix
+  ];
+}

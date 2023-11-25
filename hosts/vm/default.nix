@@ -12,7 +12,8 @@
     ../common/optional/sysctl/common
     ../common/optional/sysctl/desktop
     ../common/optional/boot/modules
-    ../common/optional/boot/params
+    ../common/optional/boot/params/common
+    ../common/optional/boot/params/desktop
     ../common/optional/dns
     ../common/optional/ntp
 
