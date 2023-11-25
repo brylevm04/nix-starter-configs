@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [
+    picopt
     pngoptimizer
     oxipng
     pngquant
