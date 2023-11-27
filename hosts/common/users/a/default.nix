@@ -36,6 +36,14 @@ in
       "rtkit"
       "kvm"
       "cdrom"
+      "plugdev"
+      "render"
+      "tape"
+      "floppy"
+      "scanner"
+      "bluetooth"
+      "libvirt"
+      "fax"
     ];
 
     initialPassword = "password";
